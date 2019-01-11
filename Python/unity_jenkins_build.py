@@ -11,7 +11,7 @@ import time
 ########################################################################################################
 
 UNITY_VERSION = "2018.2.9f1"
-UNITY_PATH = "D:\Unity\2018.2\2018.2.9f1_2207421190e9\Editor\Unity.exe".format(UNITY_VERSION)
+UNITY_PATH = "D:\Unity\2018.2\2018.2.9f1_2207421190e9\Editor\Unity.exe"#.format(UNITY_VERSION)
 SCRIPT_PATH = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
 PROJECT_PATH = SCRIPT_PATH + "/.."
 LOG_PATH = PROJECT_PATH + "/Build/BuildLog.log"
