@@ -42,8 +42,8 @@ def doUnityBuild():
 ########################################################################################################
 
 def doCmd(args, logText = ""):
-	argsString = " ".join(args)
-	print argsString
+	#argsString = " ".join(args)
+	#print argsString
 
 	startTime = time.time()
 
