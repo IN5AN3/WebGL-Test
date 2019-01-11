@@ -51,8 +51,8 @@ def doCmd(args, logText = ""):
 	#proc = subprocess.Popen(argsString, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	output = proc.communicate()[0]
 
-	if logText != "":
-		print "{}{} finished in {} seconds.".format(output, logText, round(time.time() - startTime, 1))
+	#if logText != "":
+	#	print "{}{} finished in {} seconds.".format(output, logText, round(time.time() - startTime, 1))
 
 ########################################################################################################
 
